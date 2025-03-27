@@ -1,0 +1,34 @@
+{
+  "name": "jsonfinder",
+  "version": "1.0.0",
+  "description": "Serching bar to filter json files",
+  "main": "server.js",
+  "scripts": {
+    "dev": "ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiovanniPeirone/jsonFinder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/GiovanniPeirone/jsonFinder/issues"
+  },
+  "homepage": "https://github.com/GiovanniPeirone/jsonFinder#readme",
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/ejs": "^3.1.5",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.13.14",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
